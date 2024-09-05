@@ -14,7 +14,7 @@ void main()
     {
         if (c == ' ' || c == '\n' || c == '\t') {
             state = OUT;
-            putchar("\n");
+            putchar('\n');
         } else if (state == OUT) {
             state = IN;
             putchar(c);
